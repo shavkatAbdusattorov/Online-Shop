@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.table {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.tr {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background-color: #fff;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  border-radius: 7px;
+}
+
+.Product {
+  width: 48%;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.Price {
+  width: 17%;
+  font-size: 20px;
+  font-weight: 500;
+}
+.Quantity {
+  width: 15%;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.delete {
+  margin-right: 0.6%;
+}
+
+.td {
+  padding: 15px 0px;
+  font-size: 20px;
+  font-weight: 500;
+}

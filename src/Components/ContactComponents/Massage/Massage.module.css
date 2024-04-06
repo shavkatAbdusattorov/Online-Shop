@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.blockMassage {
+  width: 100%;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.TextField {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.Field {
+  width: 32%;
+}
+
+@media (max-width: 1000px) {
+  .Field {
+    width: 45%;
+  }
+  .TextField {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 730px) {
+  .Field {
+    width: 100%;
+  }
+  .TextField {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+
+.massage {
+  width: 100%;
+  height: 200px;
+  outline: none;
+  margin-top: 30px;
+  border: 2px solid gray;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.sentMassage {
+  display: flex;
+  justify-content: end;
+  flex-wrap: wrap;
+}
+
+.sent {
+  color: #fff;
+  background-color: #db4444;
+  padding: 12px 30px;
+  border-radius: 4px;
+  margin-top: 30px;
+}
+
+.sent:hover {
+  background-color: #fb6464;
+}
+
+@media (max-width: 1200px) {
+  .sent {
+    width: 40%;
+  }
+}
+
+@media (max-width: 900px) {
+  .sent {
+    width: 60%;
+  }
+}
+
+@media (max-width: 610px) {
+  .sent {
+    width: 100%;
+  }
+}

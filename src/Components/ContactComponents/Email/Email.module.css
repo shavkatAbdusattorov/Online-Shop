@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.block {
+  width: 100%;
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.blockPhone {
+  border-bottom: 2px solid gray;
+  margin-bottom: 5px;
+}
+
+.number {
+  padding: 30px 8px;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+
+.img {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  font-size: 20px;
+}
+
+@media (max-width: 1200px) {
+  .block {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+}

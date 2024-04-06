@@ -1,0 +1,51 @@
+.main {
+  width: 44%;
+  border: 2px solid #000;
+  padding: 20px 30px;
+  border-radius: 8px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+
+.total {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.Subtotal,
+.Total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.Total {
+  font-size: 24px;
+  margin-top: 20px;
+  padding-top: 20px;
+  border-top: 2px solid gray;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  margin-top: 20px;
+  background-color: #db4444;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #ff7575;
+}

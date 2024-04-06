@@ -1,0 +1,233 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.name {
+  cursor: pointer;
+  width: 80%;
+  margin: auto;
+  font-size: 28px;
+  font-weight: 500;
+  padding: 130px 0px 30px 10px;
+}
+
+@media (max-width: 660px) {
+  .name {
+    padding-top: 200px;
+  }
+}
+
+.quantities {
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+.mainBlock {
+  padding: 0px 0px 50px 0px;
+  cursor: pointer;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block {
+  width: 20%;
+  padding: 25px 0px;
+  /* background-color: green; */
+}
+
+@media (max-width: 1100px) {
+  .block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1100px) {
+  .filterProduct {
+    width: 40%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 600px) {
+  .filterProduct {
+    width: 70%;
+    margin: auto;
+  }
+}
+
+.byPrice {
+  padding: 10px 0px 6px 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.Genre {
+  padding: 20px 0px 6px 10px;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.Model {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 400;
+  gap: 20px;
+}
+
+.business {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 400;
+  gap: 20px;
+}
+
+.blockProduct {
+  width: 77%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 13px;
+  margin-top: 20px;
+}
+
+.Brand {
+  padding: 20px 0px 10px 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.Acer {
+  display: flex;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 400;
+  gap: 20px;
+}
+
+.element:hover .title {
+  color: #ffbe1f;
+}
+
+.inp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0px 10px 0px;
+  overflow: hidden;
+}
+
+.filterByPrice {
+  width: 45%;
+  padding: 5px 3px 5px 10px;
+  border-radius: 8px;
+  outline: none;
+  border: 2px solid gray;
+}
+
+@media (max-width: 1100px) {
+  .blockProduct {
+    width: 100%;
+  }
+}
+
+.element {
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 1300px) {
+  .element {
+    width: 45%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .block {
+    width: 100%;
+  }
+  .blockProduct {
+    widows: 100%;
+  }
+  .element {
+    width: 30%;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .element {
+    width: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .element {
+    width: 60%;
+  }
+}
+
+.price {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 20px;
+  padding: 24px 20px 0px 20px;
+}
+
+.title {
+  font-size: 17px;
+  padding: 12px 10px 15px 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.img {
+  width: 80%;
+  height: 30vh;
+  object-fit: contain;
+  margin: auto;
+}
+
+.addToCart {
+  width: 80%;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  gap: 15px;
+  background-color: #ffbe1f;
+  border-radius: 8px;
+}
+
+@media (max-width: 800px) {
+  .addToCart {
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .addToCart {
+    width: 70%;
+  }
+}
+
+@media (max-width: 550px) {
+  .addToCart {
+    width: 100%;
+  }
+}
+
+.addToCart:hover {
+  background-color: #ffde8b;
+}
